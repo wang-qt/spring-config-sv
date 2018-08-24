@@ -13,3 +13,6 @@ spring:
           destination: learning-spring-boot-chat
           group: comments-chat
           content-type: application/json
+  data:
+     mongodb:
+          uri: mongodb://192.168.0.251:27017/test

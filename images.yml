@@ -11,4 +11,7 @@ spring:
           destination: learning-spring-boot-comments
           group: comments-service
           content-type: application/json
+  data:
+     mongodb:
+          uri: mongodb://192.168.0.251:27017/test
   
